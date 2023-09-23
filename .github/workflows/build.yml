@@ -80,7 +80,7 @@ jobs:
                         "fields": [
                         {
                           "type": "mrkdwn",  
-                          "text": "Deployment URL : dipsa41cicd-production-68db.up.railway.app"
+                          "text": "Deployment URL : https://dipsa41cicd-production-68db.up.railway.app"
                         }
                         ]
                       }
