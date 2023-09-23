@@ -43,22 +43,22 @@ jobs:
         with:
             payload: |
                {
-                    "text": "CICD WorkShop by Wu Kai",
-                    "blocks":[
-                      {
-                            "type": "section",
-                            "text": {
-                                    "type": "mrkdwn",
-                                    "text": "Name : Wu Kai"
-                                    }
-                        },
+                    "text" : "CICD WorkShop by Wu Kai",
+                    "blocks" : [
+                         {
+                            "type" : "section",
+                            "text" :  {
+                                        "type" : "mrkdwn",
+                                        "text" : "Name : Wu Kai"
+                                       }
+                          },
                    {
-                   "type": "section",
-                   "block_id": "section789",
-                   "feilds": [
+                   "type" :  "section",
+                   "block_id" :  "section789",
+                   "feilds" :  [
                         {
-                               "type": "mrkdwn",
-                               "text": "Github URL : XXXX"
+                               "type" : "mrkdwn",
+                               "text" : "Github URL : XXXX"
                         }
                     ]
                    }
