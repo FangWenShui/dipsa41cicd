@@ -58,12 +58,12 @@ jobs:
                    "feilds": [
                         {
                                "type": "mrkdwn",
-                               "text": "Github URL : xxxx"
+                               "text": "Github URL : https://github.com/FangWenShui/dipsa41cicd"
                         }
-                   ]
+                    ]
                    }
-                   ]
-                   }
+                 ]
+                }
 
         env:
             SLACK_WEBHOOK_URL : ${{ secrets.SLACK_WEBHOOK_URL }}
