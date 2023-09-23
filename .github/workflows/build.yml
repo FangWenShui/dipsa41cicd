@@ -58,7 +58,7 @@ jobs:
                    "feilds": [
                         {
                                "type": "mrkdwn",
-                               "text": "Github URL : https://github.com/FangWenShui/dipsa41cicd"
+                               "text": "Github URL : XXXX"
                         }
                     ]
                    }
