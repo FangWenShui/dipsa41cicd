@@ -42,10 +42,10 @@ jobs:
         uses: slackapi/slack-github-action@v1.24.0
         with:
             payload: |
-                   {
-                   "text": "CICD WorkShop by Wu Kai",
-                   "blocks":[
-                        {
+               {
+                    "text": "CICD WorkShop by Wu Kai",
+                    "blocks":[
+                      {
                             "type": "section",
                             "text": {
                                     "type": "mrkdwn",
