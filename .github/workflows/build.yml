@@ -43,27 +43,50 @@ jobs:
         with:
             payload: |
                {
-                    "text" : "CICD WorkShop by Wu Kai",
-                    "blocks" : [
-                         {
-                            "type" : "section",
-                            "text" :  {
-                                        "type" : "mrkdwn",
-                                        "text" : "Name : Wu Kai"
-                                       }
-                          },
-                   {
-                   "type" :  "section",
-                   "block_id" :  "section789",
-                   "feilds" :  [
-                        {
-                               "type" : "mrkdwn",
-                               "text" : "Github URL : XXXX"
+                      "text": "CICD WorkShop by Wu Kai",
+                      "blocks": [
+                      {
+                        "type": "section", 
+                        "text": {
+                        "type": "mrkdwn",
+                        "text": "Name : Wu Kai"
                         }
-                    ]
-                   }
-                 ]
-                }
+                      },
+                      {
+                        "type": "section",
+                        "text": {
+                        "type": "mrkdwn",
+                        "text": "Matriculation Number : E1133131" 
+                        }
+                      },
+                      {
+                        "type": "section", 
+                        "text": {
+                        "type": "mrkdwn",
+                        "text": "Email : 1091333143@qq.com"
+                        }
+                      },
+                      {
+                        "type": "section",
+                        "fields": [
+                        {
+                          "type": "mrkdwn",
+                          "text": "Repository : https://github.com/FangWenShui/dipsa41cicd"
+                        }
+                        ]
+                      },
+                      {
+                        "type": "section",
+                        "fields": [
+                        {
+                          "type": "mrkdwn",  
+                          "text": "Deployment URL : dipsa41cicd-production-68db.up.railway.app"
+                        }
+                        ]
+                      }
+                      ]
+                    }
+
 
         env:
             SLACK_WEBHOOK_URL : ${{ secrets.SLACK_WEBHOOK_URL }}
